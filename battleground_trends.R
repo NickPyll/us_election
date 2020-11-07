@@ -60,7 +60,7 @@ p3 <-
   scale_x_continuous(labels = comma, limits = c(-10000, 150000)) +
   scale_y_continuous(labels = comma, limits = c(0, 1200000)) +
   labs(title = 'Arizona',
-       x = 'Incumbent Lead',
+       x = 'Challenger Lead',
        y = 'Estimated Votes Remaining')
 
 p4 <-
@@ -73,7 +73,7 @@ p4 <-
   scale_x_continuous(labels = comma, limits = c(0, 25000)) +
   scale_y_continuous(labels = comma, limits = c(0, 250000)) +
   labs(title = 'Nevada',
-       x = 'Incumbent Lead',
+       x = 'Challenger Lead',
        y = 'Estimated Votes Remaining')
 
 grid.arrange(p1, p2, p3, p4, ncol = 2)
